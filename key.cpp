@@ -7,7 +7,7 @@ class student
     char name[100];
     int age,roll;
     float percent;
-    public
+    public:
         void getdata()
         {
             cout<<"Enter data"<<endl;
@@ -21,7 +21,7 @@ class student
             cin>>percent;
             cout<<endl;
         }
-        student  max(student &s1,student &s2)
+        student &  max(student &s1,student &s2)
         {
             if(percent>s1.percent && percent>s2.percent)
                 return *this;

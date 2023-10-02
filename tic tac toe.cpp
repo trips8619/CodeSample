@@ -2,7 +2,7 @@
 using namespace std;
 char matrix[3][3] = { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
 char player = 'X';
-void Draw():
+void Draw()
 {
     system("cls");
     cout << "Tic Tac Toe" << endl;
@@ -15,7 +15,7 @@ void Draw():
         cout << endl;
     }
 }
-void Input():
+void Input()
 {
     int a;
     cout << "Press the number of the field: ";

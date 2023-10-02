@@ -1,10 +1,11 @@
+
     #include <iostream>  
     using namespace std;  
     class Box  
     {  
-        private  
+        private:  
             int length;  
-        public  
+        public:  
             Box(): length(0) { }  
             friend int printLength(Box); //friend function  
     };  
@@ -18,4 +19,4 @@
         Box b;  
         cout<<"Length of box: "<< printLength(b)<<endl;  
         return 0;  
-    }  
+    }
